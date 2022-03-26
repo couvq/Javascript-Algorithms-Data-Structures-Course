@@ -3,7 +3,7 @@
     some number n.
 */
 
-const addUpToN(n) {
+const addUpToN = (n) => {
     
     let total = 0;
 
@@ -14,6 +14,4 @@ const addUpToN(n) {
     return total;
 }
 
-let total = addUpToN(5); // should be = 15
-
-console.log(total);
+module.exports = addUpToN;
